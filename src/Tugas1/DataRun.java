@@ -13,8 +13,9 @@ public class DataRun {
         
         System.out.print("Masukkan NPM : ");
         mahasiswa.NIM = input.nextLong();
+        input.nextLine();
         System.out.print("Masukkan Nama : ");
-        mahasiswa.Nama = input.next();
+        mahasiswa.Nama = input.nextLine();
         System.out.print("Masukkan Nilai Kehadiran : ");
         mahasiswa.NilaiKehadiran = input.nextFloat();
         System.out.print("Masukkan Nilai Tugas : ");
